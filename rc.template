@@ -63,7 +63,7 @@ listen = http://0.0.0.0:{{COW_ENV_PORT}} {{COW_ENV_HOST}}:{{COW_ENV_PORT}}
 #   用户认证信息为可选项
 #
 # shadowsocks:
-proxy = ss://aes-256-cfb:{{SS_ENV_PASSWORD}}@{{SS_ENV_HOST}}:{{SS_ENV_PORT}}
+proxy = ss://rc4-md5:{{SS_ENV_PASSWORD}}@{{SS_ENV_HOST}}:{{SS_ENV_PORT}}
 #
 #   authinfo 中指定加密方法和密码，所有支持的加密方法如下：
 #     aes-128-cfb, aes-192-cfb, aes-256-cfb,
